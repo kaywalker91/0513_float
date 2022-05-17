@@ -1,0 +1,191 @@
+@charset "uft-8";
+/* 문서에 최상단에 위치하게 할것 */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* 패딩이나 마진을 키우더라도 박스크기가 커지는 걸 막을 수 있다 */
+}
+
+body
+{
+    color: #333;
+}
+
+a
+{
+    text-decoration: none;
+    color: #333;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+/* CSS reset */
+
+#parent
+{
+    overflow: auto;    
+}
+
+#box1
+{
+    width: 300px;
+    height: 200px;
+    background-color: orange;
+    float: left;
+}
+
+#box2
+{
+    width: 250px;
+    height: 200px;
+    background-color: rgb(63, 196, 85);
+    float: left;
+}
+
+#box3
+{
+    width: 150px;
+    height: 200px;
+    background-color: rgb(187, 35, 111);
+    float: left;
+}
+
+#box4
+{
+    width: 150px;
+    height: 200px;
+    background-color: rgb(221, 74, 148);
+    overflow: auto;
+}
+
+#bumo
+{
+    overflow: auto;
+}
+
+.card
+{
+    float: left;
+    border: 1px solid #333;
+    border-radius: 8px;
+    width: 400px;
+    overflow: hidden;
+}
+
+.imgbox
+{
+    position: relative;
+    height: 40vh;
+    width: 50vw;   
+}
+
+.imgbox img
+{
+    height: 100%;
+    width: 50%;
+}
+    /* position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%); */
+
+.txtbox
+{
+    padding: 0.5em 0.8em;
+    padding-bottom: 1.5em;
+}
+
+.txtbox p
+{
+    margin-top: 0.5em;
+    margin-bottom: 0.8em;
+}
+
+.text-right
+{
+    text-align: right;
+}
+
+.text-right a
+{
+    text-decoration: none;
+    background-color: rgb(34, 34, 146);
+    color: antiquewhite;
+    padding: 0.3em 1em;
+    border-radius: 4px;
+}
+
+#stage1
+{
+    width: 500px;
+    height: 300px;
+    background-color: blueviolet;
+    text-align: center;
+
+}
+
+#stage1 span
+{
+    background-color: rgb(32, 165, 72);
+}
+
+#stage1 div
+{
+    width: 50px;
+    height: 30px;
+    background-color: rgb(40, 192, 192);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#stage2
+{
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    position: relative;
+    background-image: repeating-linear-gradient(red,blue);
+   
+}
+
+#stage2 span
+{
+    background-color: rgb(231, 135, 57);
+    color: rgb(243, 237, 237);
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+}
+
+#father
+{
+    overflow: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#stage2 .bro
+{
+    width: 80px;
+    height: 40px;
+    border: 5px solid red;
+    background-color: rgb(146, 221, 221);
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
